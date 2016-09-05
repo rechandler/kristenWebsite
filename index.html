@@ -33,7 +33,7 @@
 <!-- Top icons -->
 <div class="top-icons">
 	<a class="top-menu hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Menu toggle"><span class="glyphicon glyphicon-th-list"></span></a>
-	<a href="#" class="top-download-resume hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Download resume"><span class="glyphicon glyphicon-cloud-download"></span></a>
+	<a href="documentation/assets/kristen_chandler_resume.pdf" class="top-download-resume hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Download resume"><span class="glyphicon glyphicon-cloud-download"></span></a>
 	<a class="top-contact hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Contact me"><span class="glyphicon glyphicon-send"></span></a>
 </div>
 <!-- end Top icons -->
@@ -46,7 +46,6 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#professional-skills">Skills</a></li>
         <li><a href="#interests">Interests</a></li>
-       <!-- <li><a href="#portfolio">Portfolio</a></li>-->
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
@@ -78,7 +77,7 @@
             <div class="col-sm-8 col-sm-offset-2 text-center">
                 <img src="img/kristen.jpg" class="face" alt="">
                 <hr class="empty">
-                <h2>Kristen Michelle Chandler</h2>
+                <h2>Kristen Chandler</h2>
                 <p class="header-title">Marketing - Communications - Writer</p>
                 <p class="header-subtitle"><strong>Hi, I’m Kristen.</strong> Thanks for taking the time to check out my site. Here’s a little bit about me:
                     Despite the new zip code, I’ll always be a Texas girl at heart; I grew up in Midland before attending high school in Houston.
@@ -110,7 +109,7 @@
                     <li class="title"><span class="glyphicon glyphicon-user"></span>Profile</li>
                     <li>
                         <span class="note">Full name</span>
-                        <p><strong>Kristen Michelle Chandler</strong></p>
+                        <p><strong>Kristen Chandler</strong></p>
                     </li>
                     <li>
                         <span class="note">Born</span>
@@ -119,7 +118,7 @@
 
                     <li>
                         <span class="note">Location</span>
-                        <p><strong>Nashville, Tn</strong></p>
+                        <p><strong>Nashville, TN</strong></p>
                     </li>
                     
                     <li>
@@ -290,45 +289,42 @@
         <div class="row">
             <div class="col-sm-7 col-sm-offset-5">
                 <ul>
-                    <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>Interests</li>
+                    <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>Book</li>
                     <li>
-                        <p><strong>Books</strong></p>
-                        <p class="description">Vestibulum ut pharetra diam, vitae hendrerit sapien. Praesent porttitor augue nec semper suscipit. Nulla et cursus lectus. Praesent vel feugiat dolor.</p>
-                    </li>
-                    <li>
-                        <p><strong>Art</strong></p>
-                        <p class="description">Donec vel nulla mollis, mattis orci vel, vulputate tellus. Cras interdum sapien quis risus mattis egestas. Etiam rhoncus lacus turpis, in vulputate arcu imperdiet non.</p>
-                    </li>
-                    <li>
-                        <p><strong>Basketball</strong></p>
-                        <p class="description">Maecenas velit eros, congue quis accumsan sed, consequat id magna. Pellentesque at auctor lacus.</p>
+                        <p><strong>The Key</strong></p>
+                        <p class="description">Click below to read or download the first chapter of my book.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                            Sample chapter
+                        </button>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
-<!-- end Interests -->
-    
-<!-- Portfolio -->
-<!--<section id="portfolio" class="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-eye-open"></span>Portfolio</li>
-                    <li class="static">
-                        <img src="img/1.jpg" alt="" data-toggle="modal" data-target="#modal1">
-                        <img src="img/2.jpg" alt="" data-toggle="modal" data-target="#modal2">
-                        <img src="img/3.jpg" alt="" data-toggle="modal" data-target="#modal3">
-                        <img src="img/4.jpg" alt="" data-toggle="modal" data-target="#modal4">
-                    </li>
-                </ul>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">The Key - Chapter 1 Snippet</h4>
+            </div>
+            <div class="modal-body">
+                <object type="application/pdf" data="documentation/assets/TheKey-chapter1.pdf" width="100%" height="500" >No Support</object>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
-</section>-->
-<!-- end Portfolio -->
+</div>
+
+<!-- end Interests -->
     
 <!-- Modal - photos in zoom-->
 <div id="modal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
@@ -370,7 +366,7 @@
                     <li class="title"><span class="glyphicon glyphicon-envelope"></span>Contact</li>
                     <li class="static">
                         <span class="note">Location</span>
-                        <p><strong>Nashville, Tn</strong></p>
+                        <p><strong>Nashville, TN</strong></p>
                         <!--<p><strong>Victoria 3000 Australia</strong></p>-->
                        <!-- <span class="note">Mobile</span>
                         <p><strong>987 654 321</strong></p>
